@@ -1,0 +1,19 @@
+{
+  "name": "alchemy-aa-core",
+  "module": "index.ts",
+  "version": "0.0.2",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "viem": "^2.7.9"
+  }
+}
